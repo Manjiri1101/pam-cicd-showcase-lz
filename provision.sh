@@ -96,8 +96,8 @@ create_projects
 
 echo_header "Installing OpenShift Pipelines (Tekton) and pipeline resources"
 ## Install OpenShift Pipelines Operator
-oc apply -f ./support/tekton-operator/sub.yaml 
-wait_while_empty "Openshift Pipelines Operator" 100 "oc get ClusterServiceVersion | grep redhat-openshift-pipelines | grep -i succeed | awk '{ printf \$8 }'"
+#oc apply -f ./support/tekton-operator/sub.yaml 
+#wait_while_empty "Openshift Pipelines Operator" 100 "oc get ClusterServiceVersion | grep redhat-openshift-pipelines | grep -i succeed | awk '{ printf \$8 }'"
 
 runSpinner 10
 oc create -f ./cicd/tekton-resources/ -n $PRJ

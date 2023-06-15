@@ -79,7 +79,7 @@ If you run this test, a new deployment should be triggered. The pipeline will de
 
    ```
    git commit -m "an empty commit to test the pipeline" --allow-empty
-   git push origin master	
+   git push origin main
    ```
 
 3. In OpenShift, access: "**Pipelines** -> **ba-cicd-pipeline** -> **Pipeline Runs** " and check the progress of your application deployment.

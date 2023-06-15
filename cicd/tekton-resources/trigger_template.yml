@@ -1,4 +1,4 @@
-apiVersion: triggers.tekton.dev/v1alpha1
+apiVersion: triggers.tekton.dev/v1beta1
 kind: TriggerTemplate
 metadata:
   name: ba-cicd-trigger-template
@@ -8,7 +8,7 @@ spec:
     description: The git repository url
   - name: git-revision
     description: The git revision
-    default: master
+    default: main
   - name: git-repo-name
     description: The name of the deployment to be created / patched
   resourcetemplates:
