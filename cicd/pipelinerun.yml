@@ -5,9 +5,9 @@ metadata:
 spec:
   params:
     - name: git-url
-      value: 'https://github.com/timwuthenow/business-automation-cicd-showcase.git'
+      value: 'https://github.com/lee-zhg/pam-cicd-showcase-lz.git'
     - name: git-revision
-      value: master
+      value: main
     - name: maven-repo-url
       value: 'http://nexus3:8081/'
     - name: maven-username
