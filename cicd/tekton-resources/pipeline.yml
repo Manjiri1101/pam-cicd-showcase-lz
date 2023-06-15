@@ -4,7 +4,7 @@ metadata:
   name: ba-cicd-pipeline
 spec:
   params:
-    - default: 'https://github.com/lee-zhg/pam-cicd-showcase-lz.git'
+    - default: 'https://github.com/Manjiri1101/pam-cicd-showcase-lz.git'
       description: url of the git repo for the code of deployment
       name: git-url
       type: string

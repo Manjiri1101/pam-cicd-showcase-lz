@@ -5,7 +5,7 @@ metadata:
 spec:
   params:
     - name: git-url
-      value: 'https://github.com/lee-zhg/pam-cicd-showcase-lz.git'
+      value: 'https://github.com/Manjiri1101/pam-cicd-showcase-lz.git'
     - name: git-revision
       value: main
     - name: maven-repo-url
